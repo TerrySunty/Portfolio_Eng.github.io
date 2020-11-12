@@ -18,10 +18,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
   <component name="ProjectId" id="1hD3P1owORG8Jx9plpZHKAkVH4y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,6 +60,9 @@
       <workItem from="1600397359677" duration="1671000" />
       <workItem from="1600484578314" duration="8721000" />
       <workItem from="1603726444278" duration="676000" />
+      <workItem from="1604378061530" duration="2657000" />
+      <workItem from="1605081707807" duration="210000" />
+      <workItem from="1605156773283" duration="907000" />
     </task>
     <servers />
   </component>

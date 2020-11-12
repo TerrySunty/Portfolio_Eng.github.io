@@ -80,20 +80,20 @@
             <h4 style="color: white">Brief Introduction</h4>
             <p style="color: white;text-align: left;margin-right: 10px;margin-left: 10px">
                 Nowadays, in many games, there is a game AI system to interact with players, but most of them has logic bugs. For example, In NBA2K Series,
-                NPC players will do double-team when the player gets points to a certain value, for example 40 points. It is reasonable for NPCs do act of
+                NPC players will do double-team when the player gets points to a certain value, for example 40 points. It is reasonable for NPCs to do act of
                 double-team when player plays an important role in attacking, but it is unreasonable for NPCs to do act of double-team when player keeps passing the ball to teammates to get points.
                 NPCs in NBA2K won’t stop doubling the player although the player keeps passing the ball, and there are also many game
-                AI systems similar with NBA 2K’s game AI system. Such kinds of game AI with low intelligence may cause players to lose interest in the game.
-                Therefore, the traditional game AI system needs to introduce powerful Artificial Intelligence algorithm to improve the intelligence of game AI and meet players’ needs.
-                To improve game AI’s intelligence, this thesis proposes a game AI system by using a Q-Learning algorithm and semi-supervised learning method.<br/>
+                AI systems similar with NBA 2K’s game AI system. Such kinds of game AI with low intelligence may cause players to lose interests in the game.
+                Therefore, the traditional game AI system needs to introduce powerful Artificial Intelligence algorithms to improve the intelligence of game AI and meet players’ needs.
+                To improve game AI’s intelligence, this project improves the game AI system based on UE4's behavior tree by using a Q-Learning algorithm and semi-supervised learning method.<br/>
                 After many training tests and verification, the behavioral decision-making ability of game AI has been shown improved to a certain extent.
                 Game AI can change the mechanism of behavior decision
-                according to the different players’ operation patterns. It also balances the gameplay and the intelligence of game AI to a certain extent.
+                according to the different players’ operation level. It also balances the gameplay and the intelligence of game AI to a certain extent.
             </p>
         </div>
         <div class="album py-5 bg-dark" align="center" style="width: 50%;margin-top: 30px">
             <h4 style="color: white">Demo Video for part of results</h4><br>
-            <iframe src="//player.bilibili.com/player.html?aid=668523546&bvid=BV1Ma4y1Y72a&cid=203364329&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 600px; height: 450px"> </iframe>
+            <iframe src="//player.bilibili.com/player.html?aid=668523546&bvid=BV1Ma4y1Y72a&cid=255014433&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 600px; height: 450px"> </iframe>
             <br/>
             <img src="./img/RTableEng.png" alt="报酬函数表" width="70%" height="50%" style="margin-top: 50px"><br/>
             <small style="color:white">The figure above is the reward function table used in the system, which is R1 in R function.<br/> States in Q-table are referred to the R table.</small><br>
@@ -141,7 +141,7 @@
                 Similar with the example, at the beginning, NPC knows nothing about game environment（all state-action value are 0 in Q Table).
                 NPC gains rewards or penalties by constantly interacting with the game environment and using the Q function to
                 update Q values of different actions under different states.
-                As Q value converges to a certain certain value, many steps of learning are needed to get it. Therefore,
+                As Q value converges to a certain value, many steps of learning are needed to get it. Therefore,
                 some researches artificially construct a state-action reward function table (R-value table) by experience, which provides certain prior knowledge for agents.
             </p>
         </div>
