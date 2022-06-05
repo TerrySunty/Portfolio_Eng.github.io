@@ -31,6 +31,7 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
+
 </head>
 <body>
 <header>
@@ -44,7 +45,8 @@
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Contact Me</h4>
                     <ul class="list-unstyled">
-                        <a href="https://space.bilibili.com/130853098/channel/detail?cid=148180" class="text-white">Related videos on Bilibili.com</a>
+                        <li><a href="https://space.bilibili.com/130853098/channel/detail?cid=148180" class="text-white">Related videos on Bilibili.com</a></li>
+                        <li><a href="https://steamcommunity.com/id/TianyiGame/" class="text-white">Steam page</a></li>
                         <li><h6 style="color: #ffffff">Email: terrysunty@qq.com</h6></li>
                     </ul>
                 </div>
@@ -53,7 +55,7 @@
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
+            <a href="./index.html" class="navbar-brand d-flex align-items-center">
                 <strong>TerrySunty | Portfolio</strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,107 +69,189 @@
 
     <section class="jumbotron text-center">
         <div class="container">
-            <h1>Sun Tianyi's Portfolio</h1>
-            <p class="lead text-muted">The followings are my personal portfolio，most of them are game projects developed by Unreal Engine 4.</p>
+            <h1>Tianyi's Portfolio</h1>
+            <p class="lead text-muted">The Portfolio includes game demos</p>
         </div>
     </section>
 
     <div class="album py-5 bg-light">
+
         <div class="container">
 
+
+
+            <hr color="#987CB9" align="center" size="10" width="100%">
+            <h2 align="center"><b>Game Prototypes of Master period</b></h2>
+            <br>
             <div class="row">
-                <!-- 毕设作品部分 -->
+
+
+                <!-- Game Design Studio 沟通 -->
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <image xlink:href="./img/BlindMaze/BlindMazeCover.png" height="100%" width="100%"></image></svg>
+                        <div class="card-body flex-fill">
+                            <p class="card-text"> Blind Maze —— The project was design and developed in the game jam week with the theme of Communication. The main gameplay of this prototype is that two players use non-verbal method to establish their own communication system in the maze to help each other get out of the maze. I was responsible for game mechanic design and development.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './BlindMaze.html'">More Details</button>
+                                </div>
+                                <small class="text-muted">2021/11/26</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Design Studio Play To Lose -->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <image xlink:href="./img/PlayToLose/requirement.png" height="100%" width="100%"></image></svg>
+                        <div class="card-body flex-fill">
+                            <p class="card-text"> Who Are You —— The project was design and developed in the game jam week with the theme of Play To Lose. The demo combines mechanics with narration to make player's "play to lose" objective reasonable. I was responsible for game mechanic design, part of narrative design and development.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './PlayToLose.html'">More Details</button>
+                                </div>
+                                <small class="text-muted">2021/12</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr color="#987CB9" align="center" size="10" width="100%">
+                <h2 align="center"><b>Game Prototypes  of Bachelor period</b></h2>
+                <br>
+
+                <div class="card-deck">
+
+                    <!-- 毕设作品部分 -->
+
+                    <div class="card shadow-sm">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
                             <image xlink:href="./img/FinalProject.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body" style="height: 7cm">
-                            <p class="card-text">This project is my graduation thesis project. It is an <strong>intelligent game AI system with Q-Learning algorithm </strong> and semi-supervised learning method.
-                                </p>
+                        <div class="card-body">
+                            <p class="card-text">This project is my graduation thesis project. It is an intelligent game AI system with Q-Learning algorithm and semi-supervised learning method.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group" style="position: absolute;bottom: 20px">
+                                <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './AISystem.html'">More Details</button>
                                 </div>
-                                <small class="text-muted"  style="position: absolute;bottom: 30px;right: 20px">2020/1-2020/6</small>
+                                <small class="text-muted">2020/01-2020/06</small>
                             </div>
                         </div>
                     </div>
+                    <!-- Global Game Jam New Era Worker -->
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <image xlink:href="./img/NewEraWorker.png" height="100%" width="100%"></image></svg>
+                        <div class="card-body">
+                            <p class="card-text">《New Era Worker》—— The project was developed in the 2021 Global Game Jam. This is a 2D platformer game based on a ironic story. The narration includes satire on endless work due to capitalism，and delivers a sentence: behind the seemingly lost things in life there may be unexpected joys, the so-called misfortunes and blessings depend on.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './NewEraWorker.html'">More Details</button>
+                                </div>
+                                <small class="text-muted">2021/01/29-2021/01/31</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CIGA Game Jam 心门 -->
+
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <image xlink:href="./img/HeartGate.png" height="100%" width="100%"></image></svg>
+                        <div class="card-body flex-fill">
+                            <p class="card-text">Heart Gate —— This project was my team's work for the 2020 CIGA Game Jam. According to the team's subjective understanding of the artist Qiu Dandan's work "Crack", the game is a platform jumping game developed based on Unreal Engine 4 with the theme of "Get rid of the gate in mind, touch the world again".</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './HeartGate.html'">More Details</button>
+                                </div>
+                                <small class="text-muted">2020/08/14-2020/08/16</small>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-                <!-- 虚拟交互墙部分-->
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
+
+                <br>
+                <div class="card-deck">
+                    <!-- 虚拟交互墙部分-->
+                    <div class="card shadow-sm">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
                             <image xlink:href="./img/InteractiveWall.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body" style="height: 7cm">
-                            <p class="card-text">Kinect Interactive Wall —— This is an outsourcing program for a hotel in Guangxi province, China, 
-                                developed by my game studio. The development of this game was based on UE4 and Kinect 2.0. The game is for customers to kill time when they are 
-                                waiting in the meeting room of the hotel. </p>
-                            <div class="d-flex justify-content-between align-items-center" >
-                                <div class="btn-group" style="position: absolute;bottom: 20px">
+                        <div class="card-body">
+                            <p class="card-text">Kinect Interactive Wall —— This is an outsourcing program for a hotel in Guangxi province, China, developed by my game studio. The development of this game was based on UE4 and Kinect 2.0. The game is for customers to kill time when they are waiting in the meeting room of the hotel.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './InteractiveWall.html'">More Details</button>
                                 </div>
-                                <small class="text-muted"  style="position: absolute;bottom: 30px;right: 20px">2019/7</small>
+                                <small class="text-muted">2019/07</small>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 烎火部分 -->
+
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <image xlink:href="./img/YingHuo.png" height="100%" width="100%"></image></svg>
+                        <div class="card-body">
+                            <p class="card-text">Yin Huo(烎火)- This puzzle game named Yin Huo, tells a story about how fireflies take a magic bead back to save their home. Players need to control and scale the firefly group to interact with environmental elements, to mvoe the magic bead to the destination.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './YinHuo.html'">More Details</button>
+                                </div>
+                                <small class="text-muted">2018/05</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 乌洛布罗斯部分 -->
+
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <image xlink:href="./img/Ouroboros.png" height="100%" width="100%"></image></svg>
+                        <div class="card-body">
+                            <p class="card-text">Ouroboros —— This RPG game was developed in Microsoft's university game development competitions by me and three friends. The game tells a story about a loyal general trying to escape the wizard's trap with infinite loop to save his own country.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './Ouroboros.html'">More Details</button>
+                                </div>
+                                <small class="text-muted">2017/11-2018/01</small>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+            <!--游戏和其它作品分开-->
+            <hr color="#987CB9" align="center" size="10" width="100%">
+            <h2 align="center"><b>Others</b></h2>
+            <div class="row">
                 <!-- LogKids部分 -->
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
                             <image xlink:href="./img/LogKids.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body" style="height: 7cm">
+                        <div class="card-body">
                             <p class="card-text">LogKids —— This website was built for kindergarten teachers to record kids' behavior more conveniently. The development was based on HTML, CSS, JavaScript.</p>
-                            <div class="d-flex justify-content-between align-items-center" >
-                                <div class="btn-group" style="position: absolute;bottom: 20px">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './KidLogs.html'">More Details</button>
                                 </div>
-                                <br/>
-                                <small class="text-muted" style="position: absolute;bottom: 30px;right: 20px">2019/2-2019/6</small>
+                                <small class="text-muted">2019/02-2019/06</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- 烎火部分 -->
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/YingHuo.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body" style="height: 7cm">
-                            <p class="card-text">Yin Huo(烎火)- This puzzle game named Yin Huo, tells a story about how fireflies take a magic bead back to save their home.
-                            Players need to control and scale the firefly group to interact with environmental elements, to mvoe the magic bead to the destination.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group" style="position: absolute;bottom: 20px">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './YinHuo.html'">More Details</button>
-                                </div>
-                                <small class="text-muted" style="position: absolute;bottom: 30px;right: 20px">2018/5</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- 乌洛布罗斯部分 -->
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/Ouroboros.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body" style="height: 7cm">
-                            <p class="card-text">Ouroboros —— This RPG game was developed in Microsoft's university game development competitions by me and three friends. The game tells a story about a loyal general trying to escape the wizard's trap with infinite loop to save his own country.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group" style="position: absolute;bottom: 20px">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './Ouroboros.html'">More Details</button>
-                                </div>
-                                <small class="text-muted" style="position: absolute;bottom: 30px;right: 20px">2017/11-2018/1</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                
-
             </div>
         </div>
     </div>
+
 
 </main>
 
@@ -176,10 +260,10 @@
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>This website is my personal portfolio, no reproduction without permission!</p>
+        <p>This website is my personal portfolio, no reproduction without permission</p>
     </div>
 </footer>
-<script src="./jquery-3.5.1.slim.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="Index.js"></script>
