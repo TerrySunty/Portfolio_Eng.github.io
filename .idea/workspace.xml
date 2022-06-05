@@ -4,6 +4,13 @@
     <list default="true" id="9569d278-7147-4024-b617-f87999dc2cc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AISystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/AISystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlindMaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlindMaze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeartGate.html" beforeDir="false" afterPath="$PROJECT_DIR$/HeartGate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InteractiveWall.html" beforeDir="false" afterPath="$PROJECT_DIR$/InteractiveWall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewEraWorker.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewEraWorker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ouroboros.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ouroboros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayToLose.html" beforeDir="false" afterPath="$PROJECT_DIR$/PlayToLose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YinHuo.html" beforeDir="false" afterPath="$PROJECT_DIR$/YinHuo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +77,7 @@
       <workItem from="1605257427550" duration="2749000" />
       <workItem from="1605322695273" duration="1484000" />
       <workItem from="1654435525192" duration="2790000" />
+      <workItem from="1654452300212" duration="6430000" />
     </task>
     <servers />
   </component>
