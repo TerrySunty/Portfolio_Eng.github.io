@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9569d278-7147-4024-b617-f87999dc2cc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AISystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/AISystem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlindMaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlindMaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HeartGate.html" beforeDir="false" afterPath="$PROJECT_DIR$/HeartGate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InteractiveWall.html" beforeDir="false" afterPath="$PROJECT_DIR$/InteractiveWall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewEraWorker.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewEraWorker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ouroboros.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ouroboros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayToLose.html" beforeDir="false" afterPath="$PROJECT_DIR$/PlayToLose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YinHuo.html" beforeDir="false" afterPath="$PROJECT_DIR$/YinHuo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1hD3P1owORG8Jx9plpZHKAkVH4y" />
   <component name="ProjectViewState">
@@ -78,20 +78,12 @@
       <workItem from="1605322695273" duration="1484000" />
       <workItem from="1654435525192" duration="2790000" />
       <workItem from="1654452300212" duration="6430000" />
+      <workItem from="1669057224396" duration="10000" />
+      <workItem from="1669062309424" duration="8871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599535004434">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599535004434" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599702736954">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599702736954" />
   </component>
 </project>

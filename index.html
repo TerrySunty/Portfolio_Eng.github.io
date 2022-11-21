@@ -1,271 +1,547 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.1.1">
-    <title>Sun Tianyi's Homepage</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+  <title>Tianyi's Page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Bootstrap core CSS -->
-    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/619258f0e4.js" crossorigin="anonymous"></script>
+  <!-- =======================================================
+
+  ======================================================== -->
 </head>
+
 <body>
-<header>
-    <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profileTianyi.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Tianyi Sun</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://space.bilibili.com/130853098?spm_id_from=333.1007.0.0" class="bilibili"><i class="fa-brands fa-bilibili"></i></a>
+          <a href="https://steamcommunity.com/id/TianyiGame/" class="steam"><i class="fa-brands fa-steam"></i></a>
+          <a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg4MjU1NTI4OQ==&action=getalbum&album_id=2556082703004221440&subscene=126&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzg4MjU1NTI4OQ%3D%3D%26mid%3D2247483689%26idx%3D1%26sn%3D3d92b511351f4ac9a4219feb1112261c%26chksm%3Dcf55a1dff82228c972841b50410e75a98a02617a40512f23925b6622e6e77ac036d65e6833e7%26scene%3D126%26sessionid%3D1669055086%26subscene%3D227%26key%3Db33f6248b7bf1f89ca9bf5c6c898e84250c6428693a611d75a8038b6ee1a2250c9542dda70e6ea717fb0e8a52c2c3d045e5f29e7d888bb656764674e900de71d509e9ee3041ca3485c504d267252340bb19345d583baebf388c41ea851be35a66274e8c61ee9a1a23ba6fa24607ab94374a0fbfcd468ffdde23526a0ba6e56f1%26ascene%3D7%26uin%3DMTMzMzYxOTg4Mg%253D%253D%26devicetype%3DWindows%2B11%2Bx64%26version%3D63080021%26lang%3Dzh_CN%26exportkey%3Dn_ChQIAhIQ4ZhVEvgL1Q7TQ%252BZJySffNBLgAQIE97dBBAEAAAAAADAKB%252BY7cP0AAAAOpnltbLcz9gKNyK89dVj0pJkiF0gTb%252BqSIozr7dKO%252B7fzvn50rwyR%252ByZaFz5Hp0XuwsDmnFySQSS8lOxYfExJbC%252BQV%252BrQsma5RsxfSWREhYcXzI0MPXx5ZaF1NxXp%252Fb8jCqCcfxddME2f2PXGewKdLT3U%252FYcztQJZbg0pIZJhnQ%252FYAL9aIzUIvLe2E%252Bziwtzx0tHlxvI7XF1Xcu8Es9JFWBhbWeVtamffwBFXfGWJX%252FpsYtTY5A27w0OnqvUPZgf43xF46SJ0tpHx%26acctmode%3D0%26pass_ticket%3DY5F%252BaO8r7xgaLJ04uWnJ%252BjbshaF3Ak58jBKIHr95baKY3%252BVMUeJSXL4XQWeG33%252BT%26wx_header%3D0%26fontgear%3D2&nolastread=1&uin=MTMzMzYxOTg4Mg%3D%3D&key=e9ae1ce9d600680f7fe40e4dd03cf6399bdcae53302d826d31bb83ae57007cb90de5df1bfbd5b24fa9a70c033a1e3a4d683bb153d1631ed6e9d826e8d3eadf3e61760dbb675aef08844d6b7a439c4dd4c2914246bbcd4af5442364bb408571958f462470dc66610ba572cf733b4862b252326298e7c25fa2d62c4011448fe2f3&devicetype=Windows+11+x64&version=63080021&lang=zh_CN&ascene=7&acctmode=0&pass_ticket=Y5F%2BaO8r7xgaLJ04uWnJ%2BjbshaF3Ak58jBKIHr95baKHGCcXEXcflG1AgbgvbJ3v&fontgear=2" class="wechat"><i class="fa-brands fa-weixin"></i></a>
+          <a href="https://www.linkedin.com/in/terrysunty97/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Tianyi Sun</h1>
+      <p>I'm <span class="typed" data-typed-items="Game Designer, Game Developer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Hi! I am Tianyi, from China. I dream of being a good game designer, designing games for players to bring them the game's charm.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profileTianyi.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Game Designer &amp; Game Developer.</h3>
+            <p class="fst-italic">
+              To better know me.
+            </p>
             <div class="row">
-                <div class="col-sm-8 col-md-7 py-4">
-                    <h4 class="text-white">About</h4>
-                    <p class="text-muted">This website is for my own portfolio.</p>
-                </div>
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact Me</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="https://space.bilibili.com/130853098/channel/detail?cid=148180" class="text-white">Related videos on Bilibili.com</a></li>
-                        <li><a href="https://steamcommunity.com/id/TianyiGame/" class="text-white">Steam page</a></li>
-                        <li><h6 style="color: #ffffff">Email: terrysunty@qq.com</h6></li>
-                    </ul>
-                </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>5 Nov 1997</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+46 72 444 7525</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Visby, Sweden</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>terrysunty@qq.com</span></li>
+                </ul>
+              </div>
             </div>
+            <p>
+              I enjoy the process of designing games and watching my players' faces while they are playing.
+              It would bring me a huge pleasure if players liked the game I design.<br>
+              I also like to try different kinds of games, ARPG, FPS, TPS, Fighting Games, Adventure Games, Simulation Games, Metroidvania Games and etc.
+            </p>
+          </div>
         </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-            <a href="./index.html" class="navbar-brand d-flex align-items-center">
-                <strong>TerrySunty | Portfolio</strong>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
+      </div>
+    </section><!-- End About Section -->
+
+<!--     ======= Facts Section =======
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-    </div>
-</header>
 
-<main role="main">
+        <div class="row no-gutters">
 
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1>Tianyi's Portfolio</h1>
-            <p class="lead text-muted">The Portfolio includes game demos</p>
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
         </div>
-    </section>
 
-    <div class="album py-5 bg-light">
+      </div>
+    </section> End Facts Section -->
 
-        <div class="container">
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Skills related to game design and development</p>
+        </div>
 
+        <div class="row skills-content">
 
-            <hr color="#987CB9" align="center" size="10" width="100%">
-            <h2 align="center"><b>Game Prototypes of Master period</b></h2>
-            <br>
-            <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
 
-
-                <!-- Game Design Studio 沟通 -->
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/BlindMaze/BlindMazeCover.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body flex-fill">
-                            <p class="card-text"> Blind Maze —— The project was design and developed in the game jam week with the theme of Communication. The main gameplay of this prototype is that two players use non-verbal method to establish their own communication system in the maze to help each other get out of the maze. I was responsible for game mechanic design and development.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './BlindMaze.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2021/11/26</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Game Design Studio Play To Lose -->
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/PlayToLose/requirement.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body flex-fill">
-                            <p class="card-text"> Who Are You —— The project was design and developed in the game jam week with the theme of Play To Lose. The demo combines mechanics with narration to make player's "play to lose" objective reasonable. I was responsible for game mechanic design, part of narrative design and development.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './PlayToLose.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2021/12</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <hr color="#987CB9" align="center" size="10" width="100%">
-                <h2 align="center"><b>Game Prototypes  of Bachelor period</b></h2>
-                <br>
-
-                <div class="card-deck">
-
-                    <!-- 毕设作品部分 -->
-
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/FinalProject.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body">
-                            <p class="card-text">This project is my graduation thesis project. It is an intelligent game AI system with Q-Learning algorithm and semi-supervised learning method.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './AISystem.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2020/01-2020/06</small>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Global Game Jam New Era Worker -->
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/NewEraWorker.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body">
-                            <p class="card-text">New Era Worker—— The project was developed in the 2021 Global Game Jam. This is a 2D platformer game based on a ironic story. The narration includes satire on endless work due to capitalism，and delivers a sentence: behind the seemingly lost things in life there may be unexpected joys, the so-called misfortunes and blessings depend on.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './NewEraWorker.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2021/01/29-2021/01/31</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CIGA Game Jam 心门 -->
-
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/HeartGate.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body flex-fill">
-                            <p class="card-text">Heart Gate —— This project was my team's work for the 2020 CIGA Game Jam. According to the team's subjective understanding of the artist Qiu Dandan's work "Crack", the game is a platform jumping game developed based on Unreal Engine 4 with the theme of "Get rid of the gate in mind, touch the world again".</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './HeartGate.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2020/08/14-2020/08/16</small>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <br>
-                <div class="card-deck">
-                    <!-- 虚拟交互墙部分-->
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/InteractiveWall.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body">
-                            <p class="card-text">Kinect Interactive Wall —— This is an outsourcing program for a hotel in Guangxi province, China, developed by my game studio. The development of this game was based on UE4 and Kinect 2.0. The game is for customers to kill time when they are waiting in the meeting room of the hotel.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './InteractiveWall.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2019/07</small>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- 烎火部分 -->
-
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/YingHuo.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body">
-                            <p class="card-text">Yin Huo(烎火)- This puzzle game named Yin Huo, tells a story about how fireflies take a magic bead back to save their home. Players need to control and scale the firefly group to interact with environmental elements, to mvoe the magic bead to the destination.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './YinHuo.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2018/05</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 乌洛布罗斯部分 -->
-
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/Ouroboros.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body">
-                            <p class="card-text">Ouroboros —— This RPG game was developed in Microsoft's university game development competitions by me and three friends. The game tells a story about a loyal general trying to escape the wizard's trap with infinite loop to save his own country.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './Ouroboros.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2017/11-2018/01</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="progress">
+              <span class="skill">Programming<i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
 
+            <div class="progress">
+              <span class="skill">Unreal Engine Blueprint<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
 
-            <!--游戏和其它作品分开-->
-            <hr color="#987CB9" align="center" size="10" width="100%">
-            <h2 align="center"><b>Others</b></h2>
-            <div class="row">
-                <!-- LogKids部分 -->
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                            <image xlink:href="./img/LogKids.png" height="100%" width="100%"></image></svg>
-                        <div class="card-body">
-                            <p class="card-text">LogKids —— This website was built for kindergarten teachers to record kids' behavior more conveniently. The development was based on HTML, CSS, JavaScript.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = './KidLogs.html'">More Details</button>
-                                </div>
-                                <small class="text-muted">2019/02-2019/06</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="progress">
+              <span class="skill">Game Mechanism Analysis<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Basic Knowledge of Motion Capture<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Organizing Game Playtests, Interview, Playtest Data Analysis <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Basic Game Design <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p><br></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Game Design, Master of Art</h4>
+              <h5>2021 - 2023</h5>
+              <p><em>Department of Game Design, Uppsala University, Visby, Sweden</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Computer Science, Bachelor of Science, Dual Degree</h4>
+              <h5>2018 - 2020</h5>
+              <p><em>School of Computing, Korea Advanced Institute of Science & Technology, Daejeon, South Korea</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Computer Science, Bachelor of Engineering</h4>
+              <h5>2016 - 2018</h5>
+              <p><em>International College, Chongqing University of Technology, Chongqing, China</em></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Education related Awards</h4>
+              <ul>
+                <li>Academic year merit student (2016-2017,2017-2018)</li>
+                <li>Academic year university-level first-class scholarship (2016-2017,2017-2018)</li>
+                <li>POSCO (Chongqing) scholarship (2018)</li>
+                <li>Chongqing University of Technology’s Undergraduate visiting scholarship to overseas
+                  universities(2018)</li>
+                <li>CLKIP (Chongqing Liangjiang International KAIST Program) dual degree scholarship</li>
+              </ul>
+            </div>
+            <h3 class="resume-title">ON Campus Experience</h3>
+            <div class="resume-item">
+              <h4>Director of the planning department of the United Association of Liangjiang campus </h4>
+              <h5>2016 - 2017</h5>
+              <p><em>Awards: Outstanding club manager in 2016-2017 academic year</em></p>
+              <ul>
+                <li>Do communication with different student associations, review the feasibility of each association's activity plan, and assist in modification.</li>
+                <li>Organizing the campus student associations' festival.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Co-founder of PIE game studio</h4>
+              <h5>2018 - 2020</h5>
+              <p><em>The studio focus on development of general 3D games, VR games and Kinect games.</em></p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">OFF Campus Experience</h3>
+          <div class="resume-item">
+            <h4>Ouroboros, ID@XBOX Campus Game Programming Competition</h4>
+            <h5>2017</h5>
+            <p><em>Responsible for part of narration design, gameplay design and implementation of character’s controlling functions and NPC behavior tree.</em></p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Gameplay programmer, Internship in DAWA+ </h4>
+            <h5>2019.7</h5>
+            <p><em>Learned game development related skills and VR development skills</em></p>
+          </div>
+
+            <div class="resume-item">
+              <h4>Analysis of Gameplay and Game Features, Tencent iMUR Remote Project</h4>
+              <h5>2022.4 - 2022.10</h5>
+              <ul>
+                <li>Do analysis of latest game's gameplay, and write highlight points in the report.</li>
+                <li>Analysis of specific content of specific games. Eg. Interactions In Open-World Games' Levels</li>
+              </ul>
             </div>
         </div>
-    </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <!--最近项目-->
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p></p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <h3>Recent Game Prototypes</h3>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+           <!-- Nonverbal Communication -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/BlindMaze/BlindMazeCover.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/BlindMaze/BlindMazeCover.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nonverbal Communication - The project was design and developed in the game jam week with the theme of Communication.
+                The main gameplay of this prototype is that two players use non-verbal method to establish their own communication system in the maze to help each other get out of the maze. I was responsible for game mechanic design and development. 2021/11/26"><i class="bx bx-plus"></i></a>
+                <a href="./BlindMaze.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+            <!--play to lose-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/PlayToLose/requirement.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/PlayToLose/requirement.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Who Are You —— The project was design and developed in the game jam week with the theme of Play To Lose. The demo combines mechanics with narration to make player's 'play to lose' objective reasonable. I was responsible for game mechanic design, part of narrative design and development.
+
+                2021/12"><i class="bx bx-plus"></i></a>
+                <a href="./PlayToLose.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!--本科项目-->
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <h3>Game Prototypes in Bachelor Period</h3>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <!--  AI Q 学习-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/FinalProject.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/FinalProject.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Q-Learning Combat System-This project is my graduation thesis project. It is an intelligent game AI system with Q-Learning algorithm and semi-supervised learning method.
+
+2020/01-2020/06"><i class="bx bx-plus"></i></a>
+                <a href="./AISystem.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--New Era Worker-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/NewEraWorker.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/NewEraWorker.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="New Era Worker—— The project was developed in the 2021 Global Game Jam. This is a 2D platformer game based on a ironic story. The narration includes satire on endless work due to capitalism，and delivers a sentence: behind the seemingly lost things in life there may be unexpected joys, the so-called misfortunes and blessings depend on.
+
+2021/01/29-2021/01/31"><i class="bx bx-plus"></i></a>
+                <a href="./NewEraWorker.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- 心门-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/HeartGate.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/HeartGate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Heart Gate —— This project was my team's work for the 2020 CIGA Game Jam. According to the team's subjective understanding of the artist Qiu Dandan's work 'Crack', the game is a platform jumping game developed based on Unreal Engine 4 with the theme of 'Get rid of the gate in mind, touch the world again'.
+
+                2020/08/14-2020/08/16"><i class="bx bx-plus"></i></a>
+                <a href="./HeartGate.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+          </div>
+          <!--交互墙-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/InteractiveWall.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/InteractiveWall.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kinect Interactive Wall —— This is an outsourcing program for a hotel in Guangxi province, China, developed by my game studio. The development of this game was based on UE4 and Kinect 2.0. The game is for customers to kill time when they are waiting in the meeting room of the hotel.
+
+2019/07"><i class="bx bx-plus"></i></a>
+                <a href="./InteractiveWall.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--烎火-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/YingHuo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/YingHuo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Yin Huo(烎火)- This puzzle game named Yin Huo, tells a story about how fireflies take a magic bead back to save their home. Players need to control and scale the firefly group to interact with environmental elements, to mvoe the magic bead to the destination.
+
+2018/05"><i class="bx bx-plus"></i></a>
+                <a href="./YinHuo.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+
+            </div>
+          </div>
+          <!--乌洛布罗斯-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/Ouroboros.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/Ouroboros.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ouroboros —— This RPG game was developed in Microsoft's university game development competitions by me and three friends. The game tells a story about a loyal general trying to escape the wizard's trap with infinite loop to save his own country.
+
+2017/11-2018/01"><i class="bx bx-plus"></i></a>
+                <a href="./Ouroboros.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <h3>Others</h3>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <!-- Log Kids-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/LogKids.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/LogKids.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="LogKids —— This website was built for kindergarten teachers to record kids' behavior more conveniently. The development was based on HTML, CSS, JavaScript.
+2019/02-2019/06"><i class="bx bx-plus"></i></a>
+                <a href="./KidLogs.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-</main>
 
-<footer class="text-muted">
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Mejerigaten 7, Visby, Sweden 62145</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>terrysunty@qq.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+46 72444 7525</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="container">
-        <p class="float-right">
-            <a href="#">Back to top</a>
-        </p>
-        <p>This website is my personal portfolio, no reproduction without permission</p>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Tianyi</span></strong>
+      </div>
     </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-<script src="Index.js"></script>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
