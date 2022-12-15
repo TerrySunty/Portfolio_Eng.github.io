@@ -6,14 +6,36 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Blind Maze</title>
+    <title>Meet & Meat</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+        body {
+            background-image: url(./img/BlindMaze/BlindMazeCover.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -31,6 +53,7 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/619258f0e4.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
@@ -39,13 +62,13 @@
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">About</h4>
-                    <p class="text-muted">This website is for my own portfolio.</p>
+                    <p class="text-muted">此网站为孙田一本人个人作品集展示。</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact Me</h4>
+                    <h4 class="text-white">联系我 Contact Me</h4>
                     <ul class="list-unstyled">
-                        <li><a href="https://space.bilibili.com/130853098/channel/detail?cid=148180" class="text-white">Related videos on Bilibili.com</a></li>
-                        <li><a href="https://steamcommunity.com/id/TianyiGame/" class="text-white">Steam page</a></li>
+                        <li><a href="https://space.bilibili.com/130853098/channel/detail?cid=148180" class="text-white">本人哔哩哔哩bilibili作品集相关视频</a></li>
+                        <li><a href="https://steamcommunity.com/id/TianyiGame/" class="text-white">Steam个人主页</a></li>
                         <li><h6 style="color: #ffffff">Email: terrysunty@qq.com</h6></li>
                     </ul>
                 </div>
@@ -54,8 +77,8 @@
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-            <a href="./index.html" class="navbar-brand d-flex align-items-center">
-                <strong>TerrySunty | Portfolio</strong>
+             <a href="./index.html" class="navbar-brand d-flex align-items-center">
+                 <i class="bx bx-home"></i> <strong>TerrySunty | Meet & Meat</strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,75 +89,198 @@
 
 <main role="main">
 
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1>Blind Maze</h1>
-            <p class="lead text-muted">Game Design Studio Assignment<br/>（I was responsible for game mechanics design and game development）</p>
+    <section >
+        <div class="album py-5 bg-transparent" align="center">
+        <div class="album py-5 bg-gradient" align="center" style="width: 60%">
+            <h1 style="color: white">Meet & Meat</h1>
+            <p style="color: white" >I am responsible for overall game system design and gameplay development, partial level mechanism design and implementation, online function implementation.</p>
+        </div>
         </div>
     </section>
 
+
     <div class="album py-5 bg-transparent" align="center">
-        <div class="album py-5 bg-dark" align="center" style="width: 50%">
-            <h4 style="color: white">The prototype video (1min46s, in Chinese）</h4><br>
-            <iframe src="//player.bilibili.com/player.html?aid=591982031&bvid=BV1yq4y1B7m9&cid=450867055&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 600px; height: 450px"> </iframe>
-        </div>
 
-        <div class="album py-5 bg-dark" align="center" style="width: 50%; margin-top: 30px">
+
+        <div class="album py-5 bg-dark" style="width: 60%; margin-top: 20px" >
+            <h4 style="color: white">Introduction</h4>
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                <span><b>Inspiration:</b><br>During the game jam week of Game Design Studio, a course on Nonverbal Communication, I was inspired by the experimental idea of creating a new language system in a crowd that a classmate had mentioned. This led to the idea of creating a game experience in which two players escape a maze at the same time with the aim of establishing their own communication mechanism in a nonverbal way.
+                <br></span><br></p>
             <img src="./img/BlindMaze/Rquirement.png" alt="Game Jam题目" width="90%" height="90%"/><br>
-            <small style="color: white">Theme</small>
-        </div>
-
-        <div class="album py-5 bg-dark" style="width: 50%; margin-top: 30px" >
-            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
-                <span>This prototype was finished in my master course Game Design Studio week 3, a game jam project in three days.
-                    The theme of Game Jam is Communication,
-                    We were required to design the mechanism with both verbal and nonverbal method for players to do communication.
-                <br>
-                Brainstorming：Inspired by my friend's idea, which is about let people build their own communication system, the idea which let players build their own communication system
-                    came up with in my mind.
-                    Players can send a signal as instruction for the teammate to move towards correct direction, cooperate with each other to get rid of the maze. <br></span></p>
+            <small style="color: white">Game Jam Requirement</small>
 
             <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
-                <b>Game description：</b>This is a two-player（may be three-player in the future）round based online cooperation puzzle game. The devil puts the two innocent players
-                into a prepared maze, tease them.
-                Players have to utilize their characters' own communication ability to cooperation, build their own communication system, and meet at the center of the maze to flee away from the maze.
+                <b>Game Description:</b><br>This is a 3D two-player cooperative puzzle game. The core gameplay is based on two players communicating in a non-verbal way (i.e. through unconventional ways of communication other than everyday spoken communication and text) and building their own communication mechanism to exchange information in order to solve the puzzle together.
                 <br><br></p>
             <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
-                <b>Gameplay：</b>At the beginning of the game, each player has 4 nonverbal stamps and 2 verbal stamps.
-                Each player can see the teammate's side map in realtime. Which means player A can see the half map of the maze where Player B is located.
-                Stamps of two players are the same.
-                At the beginning, 4 nonverbal stamps don't have any meaning, It requires two players to gradually determine the meaning of each stamp (forward/backward/left/right)
-                by sending stamps to each other through trial and error.
-                Two verbal stamps (correct/false) reduce the difficulty of the game to a certain extent,
-                Players can help build a communication system by observing the actions of another player on the map and sending feedback.
-                <br><br>
-                <b>Specific Mechanism:</b>
-                <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
-                <li>Each game has a limit on the number of rounds/duration.
-                    Within the limited number of rounds/duration, if both players do not reach the center of the maze, the game will fail.</li>
-                <li>At the start of the game, the pictures of the 4 non-verbal stamps will be randomly assigned.</li>
-                <li>At the beginning of each round, player A sends a non-verbal badge to player B, player B takes action after receiving the signal, player
-                    A sends a feedback stamp signal according to the half-real-time map where player B is,
-                    and player A ends the round. Player B then repeats player A's actions.</li>
-                <li>After the player taps the stamp to send the signal, the corresponding image will appear in the center of the other player's screen.</li>
-                </ol>
-            </p>
+                <b>Design Purpose</b></p>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                <li>To provide players a unique adventure and warm social experience by establishing unique communication mechanisms with others during the game.</li>
+            <li>Expect emergent communication and emergent gameplay happen in the game.</li></ol>
+
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px"><b>Target Audience：</b></p>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                <li>Players who do not speak each other's language, but are happy to cooperate or socialize;</li>
+                <li>Cooperative puzzle game fans;</li>
+                <li>Couples/friends with light gaming needs.</li>
+            </ol>
+
+            <img src="./img/BlindMaze/mindmap2.0.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px" >
+            <div class="portfolio-links">
+                <a href="./img/BlindMaze/mindmap2.0.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="System Mind Map">Game System Mind Map- click for larger image </a>
+            </div>
             <br><br>
+            <img src="./img/BlindMaze/GameplayLoop.jpg" class="img-fluid" alt="" width="70%" style="margin-top: 50px">
+            <div class="portfolio-links">
+                <a href="./img/BlindMaze/GameplayLoop.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gameplay Loop">Gameplay Loop</a>
+            </div>
+
+
+
+        </div>
+
+        <div class="album py-5 bg-dark" style="width:60%; margin-top:30px">
+            <h4 style="color: white">Design Process</h4>
+            <h5 style="color: white"><b>Initial Version of The Gameplay:</b></h5>
             <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
-                <b>Design purpose：I want to give players a warm experience of cooperating with strangers in unfamiliar environments,
-                    constantly trying and making mistakes, going through many difficulties,
-                    and finally meeting in one place and escaping from the maze.
-                    At the same time, it also achieves the purpose of Emergent Gameplay to a certain extent.</b>
+                <br>This version of the prototype includes limited regular verbal communication, as well as non-verbal communication. Each player will start the game with 4 non-verbal badges ( no textual meaning) and 2 verbal badges in their hands.
+                Two players have the same four non-verbal badges, and the badges do not have any meaning at the beginning, so the two players need to gradually determine the meaning of each badge (forward/backward/left/right) by sending the badges to each other and trial and error. 2 verbal badges (right/wrong) reduce the difficulty of the game to some extent.
+                <br>In order to give players the motivation to establish a communication system, Player A and Player B each start the game from the two corners of the maze, without seeing each other at the beginning of the game. In order to explore the maze smoothly, the two players can only use the communication mechanism.
+                To somewhat reduce the difficulty of the game and to provide asymmetric information to facilitate communication motivation, each player can see the other player's half of the real-time maze map (hereinafter referred to as the "half map", i.e., Player A can see Player B's half of the maze map to give feedback on his behavior. By observing the actions of another player on the map, players can send feedback to help build a communication system.</br>
+
+                <br><br>
+                <b>Mechanisms:</b></p>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                <li>Each game has a turn/time limit. If both players do not reach the center of the maze within the turn/time limit, the game will lose.</li>
+                <li>At the beginning of the game, 4 pictures of non-verbal badges will be randomly assigned.</li>
+                <li>At the start of each turn, Player A sends a non-verbal badge to Player B. Player B receives the signal and makes an action, Player A sends a feedback badge signal based on the real-time map of the half of the field where Player B is, and Player A ends the turn. Player B then repeats Player A's actions</li>
+                <li>When a player clicks on a badge to send a signal, the corresponding image will appear in the center of another player's screen. Players can give feedback or instruction needs to the other player in this way.</li>
+            </ol>
+
+
+            <img src="./img/BlindMaze/HalfMap1.png" alt="半边地图" width="70%" style="margin-top: 50px">
+            <h6 style="color: white">Half Map</h6><br><br>
+            <h5 style="color: white">Prototype Demo （1min46s）</h5>
+            <iframe src="//player.bilibili.com/player.html?aid=591982031&bvid=BV1yq4y1B7m9&cid=450867055&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 600px; height: 450px"> </iframe>
+            <br><br><br>
+
+
+<!--        后续版本-->
+
+            <h5 style="color: white"><b>Gameplay Focusing On Non-verbal Communication.</b></h5>
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                Because I wanted to further experiment and verify the feasibility of non-verbal communication gameplay, I changed the previous gameplay framework in the course Game Research Prototypes and Game Testing and designed the gameplay around a completely non-verbal communication mechanism.
+
             </p>
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                <b>Version 0：</b><br>
+                Number of players：2. <br>
+                Winning Conditions：Touch the level victory point within the time limit.<br>
+                Losing condition: The game ends when the player has not touched the victory point at the end of the countdown.<br>
+                Players' Goals：</p>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                <li>Establish communication mechanism</li>
+                <li>Solve the puzzle within the time limit and touch the level victory point (a piece of ham meat)</li>
+            </ol>
+
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                Two players take on the role of two somewhat differentiated puppies and start the game at opposite ends of a large maze map, where players cannot see each other.
+                Due to the testing process of the initial version, it was discovered that meaningless cards are somewhat disruptive to the players' communication process and that visual cards may not be conducive to building emergent communication when the subsequent mechanics grow.
+                Inspired by the game Journey, we changed the core communication mechanism in the communication system to use sound to communicate. Because sounds are easier to build emergent systems, meaningless sounds can be utilized in more ways, and players are less likely to tie a sound to an action in a fixed way.
+                Therefore, in order to allow players to focus on better nonverbal communication and to generate the possibility of emergent communication, the mechanism of nonverbal communication is carried out in the form of sounds.
+                When encountering a puzzle or a puzzle clue, one player may choose a barking sound to convey a message to the other player by some means (e.g., rhythmically vocalizing).<br>
+                In the beginning, the player's sounds are not given meaning, and the two players need to gradually give meaning and agree through trial and error and communication.<br>
+                During the game, players can still use only the "half map" displayed to make a sound to give each other instructions.<br>
+                In order to avoid players exploring alone, traversing the path of the maze, improve the cost of trial and error of players acting alone, and improve the motivation of players to communicate, this version of the maze, players A and B are each set up with three forks, each with a jumping platform, with a damage volume below the platform touching that is dead.
+            </p>
+            <img src="./img/BlindMaze/halfmap2.png" alt="半边地图" width="70%" style="margin-top: 50px">
+            <h6 style="color:white;">The "half map" in this version</h6><br>
+            <img src="./img/BlindMaze/BranchRoad.png" alt="岔路" width="70%" style="margin-top: 50px">
+            <h6 style="color:white;">Branching path</h6><br>
+
+            <img src="./img/BlindMaze/mindmap1.0.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px">
+            <div class="portfolio-links">
+                <a href="./img/BlindMaze/mindmap1.0.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mind map for this version">Mind map for this version</a>
+            </div>
+            <br>
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                <b>Version 1.0：</b><br>
+                The following points can be found in the testing of version 0:
+            </p>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                Highlights:
+                <li>Added a mechanism to increase the difficulty, to a certain extent, increased the fun of players when exploring. It also raises the cost of exploration for players.</li>
+                <li>Players have fun with the mechanics of communicating using barking.</li>
+            </ol>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                Lowlights:
+                <li>No sound differentiation is made, and players can easily confuse each other's voices.</li>
+                <li>The large maze is not conducive to build a base consensus</li>
+                <li>Players still lack the motivation to communicate and cooperate.</li>
+            </ol>
+            <br>
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                The following changes were made based on the results of the version 0 playtest.
+            </p>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+
+                <li>A timer function is introduced. Prompted by the time, players will have a certain motivation to cooperate.</li>
+                <li>Iterate the level system into a flow of 4 consecutive mini-levels + 1 major level. The first 4 mini-levels set up simple puzzles, such as conveying numbers, to help build consensus.</li>
+                <li>Add long press, short press different vocalization, and two dogs voice differentiation function. Help players to distinguish each other's voices and better establish emergent communication.</li>
+                <li>Players will be penalized to a certain extent for making a wrong attempt to solve the puzzle - reducing the time left in the countdown</li>
+            </ol>
+            <img src="./img/BlindMaze/MiniLevelShowcase.png" class="img-fluid" alt="小关卡预览" width="70%" style="margin-top: 50px">
+            <p style="color: white; text-align: center; margin-left: 10px; margin-right: 10px">Preview of The Mini-Level</p>
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                The test was conducted with mini-levels and the timer was set to 5 minutes, with 100 seconds deducted as a penalty each time the player made a wrong attempt. Before the game, players were informed of the need to establish a communication system and the goal (to get the meat).
+                Playtest results:
+            </p>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                Highlights:
+                <li>The timer facilitates players to generate communication motivation.</li>
+                <li>Mini-levels make it easier to help players build a consensus on basic communication mechanisms.</li>
+                <li>It solves the problem of sound differentiation and helps players to increase the possibility of diverse expressions.</li>
+            </ol>
+            <ol style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                Lowlights:
+                <li>Players still have difficulties in understanding the meaning of each other's vocalizations, and the level guidance needs to be optimized.</li>
+            </ol>
+            <h5 style="color: white">Video of the prototype after iteration</h5>
+            <video width="600" height="450" controls>
+                <source src="https://media.githubusercontent.com/media/TerrySunty/SunTianyi-s_Projects.github.io/master/Video/CommunicationDemo.mp4" type="video/mp4">
+                Your browser does not support video tag, please use Chrome or Edge.
+            </video><br>
+
+
+            <p style="color: white; text-align: left; margin-left: 10px; margin-right: 10px">
+                The prototype was then subjected to further system design and some commercialization considerations based on the test results.
+            </p>
+            <img src="./img/BlindMaze/mindmap2.0.png" class="img-fluid" alt="Mind map 2.0" width="70%" style="margin-top: 50px">
+            <div class="portfolio-links">
+                <a href="./img/BlindMaze/mindmap2.0.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mind Map">Mind map 2.0</a>
+            </div>
         </div>
 
-        <div class="album py-5 bg-dark" style="width:50%; margin-top:30px">
-            <h4 style="color: white">Part concept art</h4>
-            <img src="./img/BlindMaze/stamps1.jpg" alt="徽章1" width="70%" style="margin-top: 50px">
-            <img src="./img/BlindMaze/stamps2.jpg" alt="徽章2" width="70%" style="margin-top: 50px">
-            <img src="./img/BlindMaze/player.png" alt="玩家" width="70%" style="margin-top: 50px">
+        <div class="album py-5 bg-dark" style="width:60%; margin-top:30px">
+            <h4 style="color: white; ">
+                Screenshots of blueprint implementations of some relevant features:
+            </h4>
+            <img src="./img/BlindMaze/InfoUpdate.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px">
+            <div class="portfolio-links">
+                <a href="./img/BlindMaze/InfoUpdate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Info Update">Communication Info Update</a>
+            </div>
+            <img src="./img/BlindMaze/JoinSever.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px">
+            <div class="portfolio-links">
+                <a href="./img/BlindMaze/JoinSever.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Join server">Join the server</a>
+            </div>
+            <img src="./img/BlindMaze/GameMode.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px">
+            <div class="portfolio-links">
+                <a href="./img/BlindMaze/GameMode.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game Mode">Game Mode</a>
+            </div>
 
         </div>
+
     </div>
 
 
@@ -147,11 +293,24 @@
             <a href="#">Back to top</a>
         </p>
         <p>This website is my personal portfolio, no reproduction without permission</p>
+
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="Index.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
