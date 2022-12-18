@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9569d278-7147-4024-b617-f87999dc2cc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BlindMaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlindMaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HeartGate.html" beforeDir="false" afterPath="$PROJECT_DIR$/HeartGate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YinYang.html" beforeDir="false" afterPath="$PROJECT_DIR$/YinYang.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,9 @@
       <workItem from="1669057224396" duration="10000" />
       <workItem from="1669062309424" duration="8871000" />
       <workItem from="1669072005027" duration="44000" />
-      <workItem from="1671102160555" duration="7752000" />
+      <workItem from="1671102160555" duration="7874000" />
+      <workItem from="1671380653252" duration="2590000" />
+      <workItem from="1671399522299" duration="1437000" />
     </task>
     <servers />
   </component>
