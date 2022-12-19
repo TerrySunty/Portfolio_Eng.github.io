@@ -148,73 +148,73 @@
                     <b>Magnet：The principle of opposites attract is utilized.</b>The player can press the corresponding button to pull energy blocks that are different from the character's Yin Yang attributes <b>in a certain range</b>.If the attributes are the same, it cannot be attracted.The energy block will follow the player when the player is in the attracting (i.e. holding) state. When the player is in the attracting state, press the same button to put down the energy block.
                 </li>
                 <li>
-                    <b>发射：利用了磁铁同性相斥的原理。</b>当玩家保持吸取状态时，进行阴阳属性切换,即可将能量块朝视野中心的面向方向发射出去。
+                    <b>Launch：The principle of same poles repel each other is utilized.</b>When players keep attracting(holding) state, once the players switch the Yin Yang attributes, the energy block that is attracted will be launched forward along the direction of the center of the camera's facing direction.
                 </li>
                 <li>
-                    <b>踩踏：</b>利用了玩家的跳跃和按钮自身的机制。当玩家触及按钮的碰撞体时，按钮进行实时的按压模拟。
+                    <b>Press：</b>It utilizes the jumping mechanism of the player character and the mechanism of the buttons. When the player touches the collider of the button, the button performs a real-time press simulation.
                 </li>
                 </ol>
             <h4 style="color: white; text-align: left; margin-left:40px; margin-right: 40px">
-                关卡内的障碍及道具
+                Obstacles and props in the level
             </h4>
             <h5 style="color: white; text-align: left; margin-left:40px; margin-right: 40px">
-                机关/障碍：
+                Level Mechanism Elements:
             </h5>
             <ol style="color: white; text-align: left; margin-left: 40px; margin-right: 40px">
                 <li>
-                    <b>阴阳属性尖刺：</b>
-                    <ul>a.	对于相异属性的角色没有伤害，对相同属性的玩家造成伤害。</ul>
-                    <ul>b.	相异属性的玩家角色可直接穿过。</ul>
+                    <b>Yin Spikes and Yang Spikes：</b>
+                    <ul>a.	Spikes will only do damage to characters whose Yin Yang attribute is same as Spikes' attributes.</ul>
+                    <ul>b.	Characters with different Yin Yang attribute from Spikes' attributes can directly pass through spikes.</ul>
                 </li>
                 <li>
-                    <b>阴阳属性机关炮</b>
-                    <ul>a.	被相同属性的能量块击毁。</ul>
-                    <ul>b.	固定属性机关炮——其属性保持固定不变。</ul>
-                    <ul>c.	属性切换机关炮——其属性在关卡内每隔固定时间进行切换。</ul>
-                    <ul>d.	炮弹——只对同属性玩家造成伤害，炮弹属性与将其发射出的机关炮当前属性一致。</ul>
+                    <b>Yin Yang Cannons</b>
+                    <ul>a.	The Cannons will be destroyed by the energy blocks with same Yin Yang attributes.被相同属性的能量块击毁。</ul>
+                    <ul>b.	Fixed Attribute Cannons - Attributes will remain fixed.</ul>
+                    <ul>c.	Attribute Switching Cannons - Attributes are switched at fixed time intervals within the level.</ul>
+                    <ul>d.	Cannonball - Deals damage only to players with the same attribute, and the attributes of the cannonball are the same as the current attributes of the cannon that fired it out.</ul>
                 </li>
                 <li>
-                    <b>平台：</b>对于同属性的玩家，向上弹射，对于属性相异的玩家取消碰撞，玩家可直接穿过平台下落。
+                    <b>Platforms: </b>For players with the same attributes, the player will be launched upwards, for players with different attributes, the platform will cancel the collision and the player will fall directly through the platform.
                 </li>
                 <li>
-                    <b>传送门：</b>作为前往下一关的机关。关卡最后的解谜挑战成功后出现。
+                    <b>Portals: </b>Serve as a mechanism to get to the next level. The portal will appear at the end of the level after a successful puzzle solving challenge.
                 </li>
             </ol>
             <img src="./img/YinYang/YinSpike.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px"><br>
-            <small style="text-align: center;color: white">阴属性尖刺</small><br>
+            <small style="text-align: center;color: white">Yin Spikes</small><br>
             <img src="./img/YinYang/Cannon.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px"><br>
-            <small style="text-align: center;color: white">加农炮</small><br>
+            <small style="text-align: center;color: white">Cannon</small><br>
             <img src="./img/YinYang/YangLauncher.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px"><br>
-            <small style="text-align: center;color: white">阳属性平台</small><br>
+            <small style="text-align: center;color: white">Yang Platform</small><br>
 
 
 
             <h5 style="color: white; text-align: left; margin-left:40px; margin-right: 40px">
-                解谜机关：
+                Puzzle Mechanism:
             </h5>
             <ol style="color: white; text-align: left; margin-left: 40px; margin-right: 40px">
                 <li>
-                    <b>八卦卦象：</b>
-                    <ul>a.	九宫格方块的方式呈现。</ul>
-                    <ul>b.	玩家需要按照卦象，通过发射能量块的方式，将九宫格激活为对应卦象的图案（离/坎卦）。</ul>
-                    <ul>c.	击中错误的方块后，卦象解谜进度重置。</ul>
-                    <ul>d.	与对应阴阳属性的能量块接触后才可激活。例如坎卦的九宫格方块应与阴属性的能量块进行接触。</ul>
-                    <ul>e.	解谜成功后生成传送门。</ul>
+                    <b>Bagua trigrams: </b>
+                    <ul>a.	Presented in a nine-box grid.</ul>
+                    <ul>b.	Players need to follow the trigrams by firing energy blocks to activate the nine grids into patterns corresponding to the trigrams (Li/Kan trigrams).</ul>
+                    <ul>c.	After hitting the wrong square, the progress of the trigram puzzle is reset.</ul>
+                    <ul>d.	It can be activated only after making contact with the energy block corresponding to the yin and yang attributes. For example, the nine grid of the Kan trigram puzzle should make contact with the energy block of the Yin attribute.</ul>
+                    <ul>e.	Spawn the portal after successful puzzle solving.</ul>
                 </li>
                 <li>
-                    <b>按钮阵</b>
-                    <ul>a.	玩家按照提示，依照顺序踩下按钮。</ul>
-                    <ul>b.	重置：玩家没有依照顺序踩下按钮时，进度重置。</ul>
-                    <ul>c.	激活：全部依照顺序踩下后，生成传送门。</ul>
+                    <b>Button Array</b>
+                    <ul>a.	Players follow the prompts and step on the buttons in order.</ul>
+                    <ul>b.	Reset: Progress is reset when the player does not step on the buttons in order.</ul>
+                    <ul>c.	Activation: After stepping on all of them in order, a portal will be spawned.</ul>
                 </li>
             </ol>
             <img src="./img/YinYang/GuaInteraction.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px"><br>
-            <small style="text-align: center;color: white">卦象机关</small><br>
+            <small style="text-align: center;color: white">Trigrams Puzzle Mechanism</small><br>
             <img src="./img/YinYang/ButtonMachine.png" class="img-fluid" alt="" width="70%" style="margin-top: 50px"><br>
-            <small style="text-align: center;color: white">按钮机关</small><br>
+            <small style="text-align: center;color: white">Button Array Puzzle Mechanism</small><br>
 
             <h5 style="color: white; text-align: left; margin-left:40px; margin-right: 40px">
-                道具：
+                Props:
             </h5>
             <ol style="color: white; text-align: left; margin-left: 40px; margin-right: 40px">
                 <li>
